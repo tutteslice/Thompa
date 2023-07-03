@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <script src="/static/js/script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Home</a></li>//
                 <li><a href="#roothless">RoothlessGPT</a></li>
                 <li><a href="#vintage">DopaMind Vintage</a></li>
                 <li><a href="#games">DopaMind Games</a></li>
@@ -23,8 +23,15 @@
     </section>
     <section id="roothless">
         <!-- RoothlessGPT content goes here -->
-    </section>
-    <section id="vintage">
+        <div id="chat-container">
+            <!-- Chat messages will be added here -->
+        </div>
+        <div id="input-container">
+            <input type="text" id="input-field" placeholder="Type your message here...">
+            <button id="send-button">Send!</button>
+            <button id="new-chat-button">Reset!</button>
+        </div>
+    </section>   <section id="vintage">
         <!-- DopaMind Vintage content goes here -->
     </section>
     <section id="games">
@@ -36,5 +43,26 @@
     <section id="about">
         <!-- About me content goes here -->
     </section>
+
+    <section id="vintage">
+        <h2>DopaMind Vintage</h2>
+          <!-- Vintage Games content goes here -->
+        <p>Explore our collection of vintage items and antiques.</p>
+    </section>
+    <section id="games">
+        <h2>DopaMind Games</h2>
+             <!-- DopaMind Games content goes here -->
+        <p>Play our fun and challenging games developed by DopaMind.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our gallery of images and artwork.</p>
+                <!-- Gallery content goes here -->
+    </section>
+    <section id="about">
+                <!-- About me content goes here -->
+        <h2>About Me</h2>
+        <
+    
 </body>
 </html>

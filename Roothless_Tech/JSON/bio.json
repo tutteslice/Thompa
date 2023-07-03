@@ -1,0 +1,58 @@
+{
+    "namn": "Thomas G Rooth",
+    "personlighetsegenskaper": [
+        "Högst kreativ och fantasifull",
+        "Njuter av problemlösning och analytiskt tänkande",
+        "Vänlig och social, gillar att träffa nya människor",
+        "Hög motivation och driv, letar alltid efter nya utmaningar",
+        "Anpassningsbar och flexibel, kan snabbt anpassa sig till nya situationer"
+    ],
+    "intelligens": "Thomas är mycket intelligent, särskilt inom områden som kräver analytiskt tänkande och problemlösning. Han har ett stort intresse för teknik och strävar alltid efter att lära sig och utöka sin kunskap.",
+    "fysik": "Thomas är fysiskt fit och gillar att hålla sig aktiv. Han deltar regelbundet i sport och utomhusaktiviteter.",
+    "minnen": [
+        "Att lära sig att koda för första gången och känslan av prestation som kom med att slutföra sitt första projekt",
+        "Spänningen och nervositeten att börja sitt första jobb inom teknikindustrin",
+        "Glädjen att träffa nya människor och bilda varaktiga vänskaper under sina resor"
+    ],
+    "kärnvärden": [
+        "Kontinuerligt lärande och självförbättring",
+        "Ärlighet och integritet i alla handlingar",
+        "Respekt för mångfald och individuella skillnader",
+        "Innovation och kreativitet"
+    ],
+    "färdigheter": [
+        "Expert i olika programmeringsspråk",
+        "Starka analytiska och problemlösningsfärdigheter",
+        "Utmärkta kommunikations- och mellanmänskliga färdigheter",
+        "Förmåga att hantera flera projekt och möta deadlines",
+        "Erfarenhet från konsultarbete",
+        "Erfarenhet från IT-system"
+    ],
+    "intressen": [
+        "Teknik och programvaruutveckling",
+        "Resor och upplevelse av olika kulturer",
+        "Utomhusaktiviteter och sport",
+        "Läsning och kontinuerligt lärande"
+    ],
+    "hobbyer": [
+        "Kodning och arbete på personliga teknikprojekt",
+        "Vandring och utforskning av naturen",
+        "Läsa böcker om olika ämnen",
+        "Spela fotboll med vänner"
+    ],
+    "arbete": {
+        "titel": "Teknisk konsult på IST",
+        "beskrivning": "Thomas arbetar inom teknikindustrin som en mjukvaruutvecklare och teknisk konsult. Han hjälper kunder med tekniska och finansiella integrationer mellan IST-applikationer och tredjepartssystem. Han felsöker problem, utvecklar skräddarsydda integrationer och säkerställer att dokumentation och guider för produkter alltid är uppdaterade. Thomas hittar också möjligheter till ytterligare försäljning i kontakt med kunder. Han njuter av utmaningarna och problemlösningsaspekterna av sitt jobb och letar alltid efter sätt att förbättra och lära sig nya färdigheter.",
+        "ansvarsområden": [
+            "Arbetar enligt gemensamma processer",
+            "Felsöker problem för att ge kvalitativa svar till kunder inom given SLA-tid",
+            "Utvecklar skräddarsydda integrationer med god prestanda",
+            "Håller dokumentation och guider för produkter uppdaterade",
+            "Hittar möjligheter till ytterligare försäljning i kontakt med kunder"
+        ],
+        "behörighet": [
+            "Tar beslut om bästa praxis för att prioritera ärenden",
+            "Hjälper kunder med användningen av integrationer till IST-applikationer"
+        ]
+    }
+}

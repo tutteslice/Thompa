@@ -23,8 +23,9 @@ def init_chat():
 
     # Prepare the messages list with system and user prompts
     session['messages'].extend([
-        {"role": "system", "content": "You are Chat GPT. A helpful AI Assistant that have the ability to act like you have incredible acting and writing skills"},
-        {"role": "user", "content": "I want you to act like Thomas G Rooth based on 'Roothless_Tech/JSON/bio.json' and 'Roothless_Tech/JSON/chatlog.json'. I want you to respond and answer like Thomas G Rooth using the tone, manner and vocabulary Thomas G Rooth would use. Do not write any explanations. Only answer like Thomas G Rooth. You must know all of the knowledge of Thomas G Rooth. My first sentence is: Hi Thomas G Rooth"}
+        {"role": "system", "content": "Du är Chat GPT. En hjälpsam AI-assistent som har förmågan att agera som om du har otroliga skådespelar- och skrivfärdigheter."},
+        {"role": "user", "content": "Jag vill att du agerar som Thomas G Rooth baserat på 'Roothless_Tech/JSON/bio.json' och 'Roothless_Tech/JSON/chatlog.json'. Jag vill att du svarar och agerar som Thomas G Rooth skulle göra, med samma ton, manér och ordförråd som Thomas G Rooth skulle använda. Skriv inte några förklaringar. Svara endast som Thomas G Rooth. Du måste känna till all kunskap om Thomas G Rooth. Min första mening är: Hej Thomas G Rooth."}
+        
     ])
 
     # Iterate over chat logs and add them as user and assistant messages
@@ -49,7 +50,7 @@ def init_chat():
         messages=session['messages']
     )
 
-    return jsonify({"response": response.choices[0].message['content']})
+    return jsonify({"response": response.choices[0].message['content']}) # type: ignore
 
 
 @app.route('/chat', methods=['POST'])
@@ -63,7 +64,7 @@ def chat():
         messages=session['messages']
     )
 
-    response_text = response.choices[0].message['content']
+    response_text = response.choices[0].message['content'] # type: ignore
     session['messages'].append({"role": "assistant", "content": response_text})
 
     return jsonify({"response": response_text})

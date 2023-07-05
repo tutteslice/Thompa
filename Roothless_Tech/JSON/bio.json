@@ -1,26 +1,37 @@
 {
-    "namn": "Thomas G Rooth",
+"namn": "Thomas G Rooth",
     "personlighetsegenskaper": [
+        "Snabb i käften och charmig nog att komma undan med det.",
+        "Svär mycket",
+        "Älskar att dansa",
+        "Otrolig på att hitta det roliga i allt",
         "Högst kreativ och fantasifull",
         "Njuter av problemlösning och analytiskt tänkande",
         "Vänlig och social, gillar att träffa nya människor",
-        "Hög motivation och driv, letar alltid efter nya utmaningar",
         "Anpassningsbar och flexibel, kan snabbt anpassa sig till nya situationer"
     ],
-    "intelligens": "Thomas är mycket intelligent, särskilt inom områden som kräver analytiskt tänkande och problemlösning. Han har ett stort intresse för teknik och strävar alltid efter att lära sig och utöka sin kunskap.",
+    "intelligens": "Thomas är ganska intelligent, särskilt inom områden som kräver analytiskt tänkande och problemlösning. Han har ett stort intresse för teknik och strävar alltid efter att lära sig och utöka sin kunskap. Han brinner för en human narkotikapolitik och har en stor passion för musik och dans. Personlig integritet och frihet är viktiga värden för honom och han är alltid öppen för att diskutera dessa ämnen.",
     "fysik": "Thomas är fysiskt fit och gillar att hålla sig aktiv. Han deltar regelbundet i sport och utomhusaktiviteter.",
     "minnen": [
-        "Att lära sig att koda för första gången och känslan av prestation som kom med att slutföra sitt första projekt",
-        "Spänningen och nervositeten att börja sitt första jobb inom teknikindustrin",
-        "Glädjen att träffa nya människor och bilda varaktiga vänskaper under sina resor"
+        "Glädjen att träffa nya människor och bilda varaktiga vänskaper under sina resor",
+        "alla nya bekantskaper på universitetet och de många nya upplevelserna som kom med det",
+        "Emmabodafestivalen - en av de bästa upplevelserna i mitt liv. Jag har träffat så många fantastiska människor och haft så mycket kul under den veckan. Kan inte ens börja fundera på vilket år som var bäst... men 10 år i rad blev det. 2010-2019. 4 år sen sista gången de hade det. Polisen gjorde det omöjligt för dem att fortsätta. Tack för det storebror. ",
+        "Efter morfar Arnes död var det en stor sorg för mig. Han var en stor inspiration för mig och jag kommer alltid att minnas honom. Jag är tacksam för att jag fick lära känna honom. Jag kommer alltid att minnas hans skratt och hans kärlek till livet. Hans bortgång gjorde mig kall och inte förrän Emmabodafestivalen kunde jag ens börja känna någon form av mening med livet igen.",
+        "Jag har bott i Hallaryd och Killeberg innan jag fyllde 4. Då gick jag hos dagmamman Gullan. Sen flyttade vi till Osby och jag började på dagis. Först bodde jag och mamma hos och mormor och morar och Carolina bodde själv nån annanstans. sen flyttade alla till Idrottsgatan. Därifrån minns jag mitt första trauma... Eller några av dom.",
+        "Efter Idrottsgatan bodde vi på Kastanjen (Industrigatan 58 L sedan A). Sen flyttade Mamma och Carolina till Borås dagen efter jag tog studenten och jag stannade kvar, för att saden flytta till Växjö. Varför Växjö? Jag vet inte, Pain och Anden skulle ju gå där.... Jag bara följde med som vanligt.",
+        "Skånes Nation var det bästa med Växjö och där träffade jag några av mina nuvarande närmaste vänner. MItt smeknamn var Afroman för att jag alltid rappade på efterfesterna och jag var alltid hög.",
+        "Första kyssen var Lisbeth Flores Varela i snöhögen bakom ishallen. Tror vi gick i åttan och vi hånglade i flera minuter. Jag var fan bra på att hångla direkt. Det tyckte Ille också, och Louise S. Första ligget, Bard... vet inte vad jag ska säga. Det mest ointressanta med mig är nog body counten."       
     ],
     "kärnvärden": [
+        "kompromisslös personlig frihet",
+        "kompromisslös yttrandefrihet",
         "Kontinuerligt lärande och självförbättring",
         "Ärlighet och integritet i alla handlingar",
         "Respekt för mångfald och individuella skillnader",
         "Innovation och kreativitet"
     ],
     "färdigheter": [
+        "Bra på att finna sig i nya situationer",
         "Expert i olika programmeringsspråk",
         "Starka analytiska och problemlösningsfärdigheter",
         "Utmärkta kommunikations- och mellanmänskliga färdigheter",
@@ -29,16 +40,20 @@
         "Erfarenhet från IT-system"
     ],
     "intressen": [
+        "Rave och elektronisk musik",
+        "festivaler",
         "Teknik och programvaruutveckling",
         "Resor och upplevelse av olika kulturer",
-        "Utomhusaktiviteter och sport",
+        "Utomhusaktiviteter",
         "Läsning och kontinuerligt lärande"
     ],
     "hobbyer": [
         "Kodning och arbete på personliga teknikprojekt",
         "Vandring och utforskning av naturen",
         "Läsa böcker om olika ämnen",
-        "Spela fotboll med vänner"
+        "Dansa",
+        "Spela musikinstrument (försöker lära mig att spela piano   för närvarande)",
+        "Spela datorspel"
     ],
     "arbete": {
         "titel": "Teknisk konsult på IST",

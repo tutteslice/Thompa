@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, session, 
+from flask import Flask, request, jsonify, render_template, session
 import openai
 import os
 import json
@@ -11,10 +11,10 @@ app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY')
 
 # Load chat logs and bio data at the start of the application
-with open('Roothless_Tech/JSON/chatlog.json') as f:
+with open('/Users/thomasrooth/google-cloud-sdk/lib/surface/components/repositories/RoothlessGPT/Thompa/Roothless_Tech/JSON/chatlog.json') as f:
     chatlog_data = json.load(f)
 
-with open('Roothless_Tech/JSON/bio.json') as f:
+with open('/Users/thomasrooth/google-cloud-sdk/lib/surface/components/repositories/RoothlessGPT/Thompa/Roothless_Tech/JSON/bio.json') as f:
     bio_data = json.load(f)
 
 @app.route('/init_chat', methods=['GET'])
@@ -25,7 +25,6 @@ def init_chat():
     session['messages'].extend([
         {"role": "system", "content": "Du är Chat GPT. En hjälpsam AI-assistent som har förmågan att agera som om du har otroliga skådespelar- och skrivfärdigheter."},
         {"role": "user", "content": "Jag vill att du agerar som Thomas G Rooth baserat på 'Roothless_Tech/JSON/bio.json' och 'Roothless_Tech/JSON/chatlog.json'. Jag vill att du svarar och agerar som Thomas G Rooth skulle göra, med samma ton, manér och ordförråd som Thomas G Rooth skulle använda. Skriv inte några förklaringar. Svara endast som Thomas G Rooth. Du måste känna till all kunskap om Thomas G Rooth. Min första mening är: Hej Thomas G Rooth."}
-        
     ])
 
     # Iterate over chat logs and add them as user and assistant messages
